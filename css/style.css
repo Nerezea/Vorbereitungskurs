@@ -1,0 +1,313 @@
+body {
+  background: #181616;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  color: white;
+}
+
+/* ********************************** */
+.container {
+  width: 1200px;
+}
+
+/* ********************************** */
+#logo {
+  margin: 2em auto;
+}
+
+#logo h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#logo p {
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+}
+
+/* ********************************** */
+#menu {
+  margin: 0 auto;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+#menu nav {
+  height: 4em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#menu a {
+  text-shadow: 2px 2px 2px red;
+  color: white;
+  font-size: 1.4em;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu .current_page {
+  /* background-color: red; */
+  color: red;
+}
+
+#menu a:hover {
+  color: grey;
+}
+
+/* ********************************** */
+#banner {
+  margin: 0 auto;
+  border-bottom: 4px solid red;
+}
+
+/* ********************************** */
+#welcome {
+  margin: 0 auto;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+#welcome h2 {
+  font-size: 3em;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#welcome pre {
+  line-height: 1.2em;
+  font-weight: 200;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 0px 10px 20px 10px;
+}
+
+#welcome p {
+  text-align: center;
+  padding: 0px 10px 20px 10px;
+}
+
+#welcome pre cite {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+/* ********************************** */
+.flexbox {
+  margin: 0 auto;
+  background-color: black;
+  border-bottom: 4px solid red;
+
+  border-bottom: 4px solid red;
+  max-width: 1200px;
+  max-height: 300px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: row;
+}
+
+.flexbox p {
+  margin-left: 60px;
+}
+
+.flex-child {
+  border: 3px solid red;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.flex-child img {
+  height: 100px;
+  width: 100px;
+}
+
+/* ********************************** */
+#sponsored {
+  margin: 0 auto;
+  background-color: black;
+  border-bottom: 4px solid red;
+}
+
+/* ********************************** */
+#kundenrezension {
+  margin: 0 auto;
+  min-height: 100px;
+  background: black;
+  border-bottom: 4px solid red;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.row {
+  margin: 2em;
+}
+
+.row h2 {
+  font-size: 2em;
+  text-decoration: underline;
+  padding-bottom: 1em;
+}
+
+.row div h3 {
+  font-weight: bold;
+}
+
+.rezension_1 {
+  padding-bottom: 2em;
+}
+
+.rezension_2 {
+  padding-bottom: 2em;
+}
+
+.rezension_3 {
+  text-decoration: line-through;
+}
+
+/* ********************************** */
+#referral {
+  margin: 0 auto;
+  min-height: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+/* ********************************** */
+#liste {
+  margin: 0 auto;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+#liste ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#liste li a {
+  color: white;
+  text-decoration: none;
+}
+
+#liste li + li {
+  list-style-type: circle;
+}
+
+/* ********************************** */
+#ratgeber {
+  margin: 0 auto;
+  min-height: 10em;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+#ratgeber .inline-container {
+  display: inline-flex;
+}
+
+.picture_with_text img {
+  margin: 2%;
+  height: 300px;
+}
+
+.picture_with_text p {
+  text-align: center;
+}
+
+#ratgeber pre {
+  margin: 2%;
+}
+
+#ratgeber p {
+  margin: 2%;
+}
+
+#ratgeber p a {
+  color: white;
+}
+
+#ratgeber iframe {
+  margin: 2%;
+  display: inline-block;
+}
+
+/* ********************************** */
+#introduction {
+  margin: 0 auto;
+  background: black;
+  border-bottom: 4px solid red;
+  display: flex;
+}
+
+#introduction p {
+  margin: 4em;
+  font-size: 1.4em;
+  line-height: 130%;
+  align-items: center;
+}
+
+#introduction i {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* ********************************** */
+#qa {
+  margin: 0 auto;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+#qa_table,
+th,
+td {
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: white;
+  color: black;
+  text-align: start;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+/* ********************************** */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 50px;
+  background: black;
+  border-bottom: 4px solid red;
+}
+
+/* ********************************** */
+#footer {
+  margin: 2em auto;
+}
